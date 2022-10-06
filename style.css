@@ -303,6 +303,74 @@ body {
   position: relative;
   top: -8px;
 }
+#es-vichy.es-vichy .es-ingr {
+  margin-bottom: 64px;
+  padding: 0 16px;
+}
+#es-vichy.es-vichy .es-ingr__title {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: 22px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 32px;
+  text-transform: uppercase;
+}
+#es-vichy.es-vichy .es-ingr__container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0 12px;
+  margin: 0 -24px;
+}
+#es-vichy.es-vichy .es-ingr__single {
+  padding: 0 12px;
+}
+#es-vichy.es-vichy .es-ingr__single:not(:last-child) {
+  margin-bottom: 32px;
+}
+#es-vichy.es-vichy .es-ingr__image {
+  position: relative;
+  margin-bottom: 24px;
+}
+#es-vichy.es-vichy .es-ingr__img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+}
+#es-vichy.es-vichy .es-ingr__text {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: 13px;
+  text-align: center;
+}
+#es-vichy.es-vichy .es-ingr__label {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  padding: 10px 3px;
+  background: rgba(255, 255, 255, 0.66);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 12px;
+  transform: translate(-50%, -50%);
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+}
 
 @-webkit-keyframes slidedown {
   from {
