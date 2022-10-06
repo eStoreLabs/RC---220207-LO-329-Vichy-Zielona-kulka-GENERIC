@@ -112,6 +112,88 @@ body {
   font-weight: bold;
   padding: 5px 24px;
 }
+#es-vichy.es-vichy .es-info {
+  padding: 32px 16px;
+  margin-bottom: 32px;
+  max-width: 730px;
+  margin: 0 auto;
+}
+#es-vichy.es-vichy .es-info__border {
+  padding: 24px 16px;
+  position: relative;
+  margin-bottom: 32px;
+}
+#es-vichy.es-vichy .es-info__border::before {
+  content: url("images/border-1.png");
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#es-vichy.es-vichy .es-info__border::after {
+  content: url("images/border-2.png");
+  position: absolute;
+  top: bottom;
+  right: 0;
+}
+#es-vichy.es-vichy .es-info__title {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 32px;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+#es-vichy.es-vichy .es-info__desc {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: 16px;
+  text-align: center;
+  line-height: 1.4;
+}
+#es-vichy.es-vichy .es-info__desc strong {
+  text-transform: uppercase;
+}
+#es-vichy.es-vichy .es-info__text {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: 14px;
+  text-align: center;
+  font-weight: 700;
+}
+#es-vichy.es-vichy .es-info__img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+#es-vichy.es-vichy .es-info__features {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 -8px;
+}
+#es-vichy.es-vichy .es-info__single {
+  padding: 0 8px;
+  width: 100%;
+}
+#es-vichy.es-vichy .es-info__single:not(:last-child) {
+  margin-bottom: 32px;
+}
+#es-vichy.es-vichy .es-info__icon {
+  margin-bottom: 16px;
+}
 
 @-webkit-keyframes slidedown {
   from {

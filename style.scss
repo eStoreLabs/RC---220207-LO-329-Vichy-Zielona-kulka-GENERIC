@@ -130,6 +130,84 @@ body {
       padding: 5px 24px;
     }
   }
+
+  .es-info {
+    padding: 32px 16px;
+    margin-bottom: 32px;
+    max-width: 730px;
+    margin: 0 auto;
+
+    &__border {
+      padding: 24px 16px;
+      position: relative;
+      margin-bottom: 32px;
+
+      &::before {
+        content: url('images/border-1.png');
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+
+      &::after {
+        content: url('images/border-2.png');
+        position: absolute;
+        top: bottom;
+        right: 0;
+      }
+    }
+
+    &__title {
+      @include text;
+      font-size: 20px;
+      text-align: center;
+      margin-bottom: 32px;
+      font-weight: normal;
+      text-transform: uppercase;
+    }
+
+    &__desc {
+      @include text;
+      font-size: 16px;
+      text-align: center;
+      line-height: 1.4;
+
+      strong {
+        text-transform: uppercase;
+      }
+    }
+
+    &__text {
+      @include text;
+      font-size: 14px;
+      text-align: center;
+      font-weight: 700;
+    }
+
+    &__img {
+      @include img;
+    }
+
+    &__features {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin: 0 -8px;
+    }
+
+    &__single {
+      padding: 0 8px;
+      width: 100%;
+
+      &:not(:last-child) {
+        margin-bottom: 32px;
+      }
+    }
+
+    &__icon {
+      margin-bottom: 16px;
+    }
+  }
 }
 
 @keyframes slidedown {
