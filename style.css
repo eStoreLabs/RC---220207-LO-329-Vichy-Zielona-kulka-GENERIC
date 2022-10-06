@@ -143,7 +143,7 @@ body {
   color: inherit;
   font-family: inherit;
   font-weight: inherit;
-  font-size: 20px;
+  font-size: 23px;
   text-align: center;
   margin-bottom: 32px;
   font-weight: normal;
@@ -170,7 +170,7 @@ body {
   color: inherit;
   font-family: inherit;
   font-weight: inherit;
-  font-size: 14px;
+  font-size: 15px;
   text-align: center;
   font-weight: 700;
 }
@@ -198,7 +198,7 @@ body {
 #es-vichy.es-vichy .es-use {
   background: url("images/bg-1.png") no-repeat;
   background-position: 86% bottom;
-  min-height: 850px;
+  min-height: 870px;
   padding: 0 16px;
 }
 #es-vichy.es-vichy .es-use__content {
@@ -229,9 +229,10 @@ body {
   color: inherit;
   font-family: inherit;
   font-weight: inherit;
+  position: relative;
   margin-bottom: 16px;
   padding-left: 24px;
-  position: relative;
+  font-size: 17px;
 }
 #es-vichy.es-vichy .es-use__item::before {
   content: "●";
@@ -370,6 +371,58 @@ body {
   font-weight: 700;
   text-align: center;
   text-transform: uppercase;
+}
+#es-vichy.es-vichy .es-benefits {
+  background: url("images/bg-3.jpg") no-repeat;
+  background-position: 28% bottom;
+  min-height: 930px;
+  padding: 0 16px;
+}
+#es-vichy.es-vichy .es-benefits__title {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: 26px;
+  margin-bottom: 70px;
+  text-align: center;
+  font-weight: 700;
+}
+#es-vichy.es-vichy .es-benefits__container {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 8px;
+  margin: 0 -16px;
+}
+#es-vichy.es-vichy .es-benefits__single {
+  padding: 0 8px;
+  width: 200px;
+}
+#es-vichy.es-vichy .es-benefits__single:not(:last-child) {
+  margin-bottom: 32px;
+}
+#es-vichy.es-vichy .es-benefits__img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+#es-vichy.es-vichy .es-benefits__icon {
+  margin-bottom: 16px;
+}
+#es-vichy.es-vichy .es-benefits__text {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  text-align: center;
+  font-size: 17px;
 }
 
 @-webkit-keyframes slidedown {

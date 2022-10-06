@@ -159,7 +159,7 @@ body {
 
     &__title {
       @include text;
-      font-size: 20px;
+      font-size: 23px;
       text-align: center;
       margin-bottom: 32px;
       font-weight: normal;
@@ -179,7 +179,7 @@ body {
 
     &__text {
       @include text;
-      font-size: 14px;
+      font-size: 15px;
       text-align: center;
       font-weight: 700;
     }
@@ -212,7 +212,7 @@ body {
   .es-use {
     background: url('images/bg-1.png') no-repeat;
     background-position: 86% bottom;
-    min-height: 850px;
+    min-height: 870px;
     padding: 0 16px;
 
     &__content {
@@ -236,9 +236,10 @@ body {
 
     &__item {
       @include text;
+      position: relative;
       margin-bottom: 16px;
       padding-left: 24px;
-      position: relative;
+      font-size: 17px;
 
       &::before {
         content: '●';
@@ -370,6 +371,54 @@ body {
       font-weight: 700;
       text-align: center;
       text-transform: uppercase;
+    }
+  }
+
+  .es-benefits {
+    background: url('images/bg-3.jpg') no-repeat;
+    background-position: 28% bottom;
+    min-height: 930px;
+    padding: 0 16px;
+
+    &__title {
+      @include text;
+      font-size: 26px;
+      margin-bottom: 70px;
+      text-align: center;
+      font-weight: 700;
+    }
+
+    &__container {
+      display: flex;
+      flex-wrap: nowrap;
+      align-items: center;
+      flex-direction: column;
+      justify-content: center;
+      padding: 0 8px;
+      margin: 0 -16px;
+    }
+
+    &__single {
+      padding: 0 8px;
+      width: 200px;
+
+      &:not(:last-child) {
+        margin-bottom: 32px;
+      }
+    }
+
+    &__img {
+      @include img;
+    }
+
+    &__icon {
+      margin-bottom: 16px;
+    }
+
+    &__text {
+      @include text;
+      text-align: center;
+      font-size: 17px;
     }
   }
 }
