@@ -1,1 +1,156 @@
-/*# sourceMappingURL=style.css.map */
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#es-vichy.es-vichy {
+  font-family: "League Spartan", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.2;
+  max-width: 998px;
+  margin: 0 auto;
+  padding: 0;
+  overflow: hidden;
+  color: #2b2a29;
+  background-color: #fff;
+}
+#es-vichy.es-vichy * {
+  box-sizing: border-box;
+}
+#es-vichy.es-vichy h2,
+#es-vichy.es-vichy h3,
+#es-vichy.es-vichy h4,
+#es-vichy.es-vichy h5 {
+  font-family: "League Spartan", sans-serif;
+  color: #111;
+}
+#es-vichy.es-vichy .es-kv {
+  background: #fff;
+}
+#es-vichy.es-vichy .es-kv__images {
+  background: url("images/packshot.png") top/cover no-repeat;
+  background-size: contain;
+  height: 615px;
+}
+#es-vichy.es-vichy .es-kv__recommendation {
+  display: flex;
+  flex-direction: column;
+}
+#es-vichy.es-vichy .es-kv__disclaimer {
+  font-size: 9px;
+  text-align: center;
+  margin: 7px 10px 0 10px;
+}
+#es-vichy.es-vichy .es-kv__header {
+  padding: 120px 10px 0 10px;
+  font-size: 16px;
+  text-align: center;
+}
+#es-vichy.es-vichy .es-kv__animated-item {
+  height: 350px;
+}
+#es-vichy.es-vichy .es-kv__animated-items {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  -webkit-animation: slidedown 0.6s ease forwards;
+          animation: slidedown 0.6s ease forwards;
+  -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s;
+}
+#es-vichy.es-vichy .es-kv__photo {
+  position: relative;
+}
+#es-vichy.es-vichy .es-kv__img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+#es-vichy.es-vichy .es-kv__img--photo {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+#es-vichy.es-vichy .es-kv__content {
+  background: url("images/photo.jpg") center/cover no-repeat;
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-end;
+  min-height: 535px;
+}
+#es-vichy.es-vichy .es-kv__title {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  padding: 5px 24px;
+  color: #39b5b3;
+  text-transform: uppercase;
+  font-size: 26px;
+  text-align: right;
+  opacity: 0;
+  -webkit-animation: slideright 0.6s ease forwards;
+          animation: slideright 0.6s ease forwards;
+  -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s;
+}
+#es-vichy.es-vichy .es-kv__subtitle {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  font-weight: bold;
+  padding: 5px 24px;
+}
+
+@-webkit-keyframes slidedown {
+  from {
+    opacity: 0;
+    transform: translateY(-32px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slidedown {
+  from {
+    opacity: 0;
+    transform: translateY(-32px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@-webkit-keyframes slideright {
+  from {
+    opacity: 0.3;
+    transform: translateX(-100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+@keyframes slideright {
+  from {
+    opacity: 0.3;
+    transform: translateX(-100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}/*# sourceMappingURL=style.css.map */
