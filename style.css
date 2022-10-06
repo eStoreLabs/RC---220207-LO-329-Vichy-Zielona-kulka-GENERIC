@@ -1,3 +1,4 @@
+@charset "UTF-8";
 html,
 body {
   margin: 0;
@@ -193,6 +194,51 @@ body {
 }
 #es-vichy.es-vichy .es-info__icon {
   margin-bottom: 16px;
+}
+#es-vichy.es-vichy .es-use {
+  background: url("images/bg-1.png") no-repeat;
+  background-position: 86% bottom;
+  min-height: 850px;
+  padding: 0 16px;
+}
+#es-vichy.es-vichy .es-use__content {
+  max-width: 730px;
+  margin: 50px auto 0 auto;
+}
+#es-vichy.es-vichy .es-use__title {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: 22px;
+  padding-bottom: 32px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+#es-vichy.es-vichy .es-use__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+#es-vichy.es-vichy .es-use__item {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  margin-bottom: 16px;
+  padding-left: 24px;
+  position: relative;
+}
+#es-vichy.es-vichy .es-use__item::before {
+  content: "●";
+  position: absolute;
+  color: #39b5b3;
+  top: 0;
+  left: 0;
 }
 
 @-webkit-keyframes slidedown {
