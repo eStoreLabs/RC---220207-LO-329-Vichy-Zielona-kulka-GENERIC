@@ -249,6 +249,68 @@ body {
       }
     }
   }
+
+  .es-banner {
+    margin-bottom: 64px;
+
+    &__border {
+      background: linear-gradient(45deg, #469594, #50bfbd);
+      padding: 32px 16px;
+      margin-bottom: 16px;
+    }
+
+    &__title {
+      @include text;
+      color: #fff;
+      font-size: 14px;
+      text-transform: uppercase;
+      text-align: center;
+      font-weight: 700;
+      line-height: 1.4;
+      margin-bottom: 10px;
+    }
+
+    &__container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    &__single {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 0 16px;
+
+      &:not(:last-child) {
+        margin-bottom: 24px;
+      }
+    }
+
+    &__text {
+      @include text;
+      color: #fff;
+      margin-top: 5px;
+      text-align: center;
+      font-weight: 500;
+      font-size: 12px;
+
+      &--number {
+        font-size: 40px;
+        line-height: 1;
+        text-transform: uppercase;
+      }
+
+      span {
+        font-size: 30px;
+        font-weight: 700;
+        position: relative;
+        top: -8px;
+      }
+    }
+  }
 }
 
 @keyframes slidedown {

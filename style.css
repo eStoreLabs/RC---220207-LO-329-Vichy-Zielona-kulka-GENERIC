@@ -240,6 +240,69 @@ body {
   top: 0;
   left: 0;
 }
+#es-vichy.es-vichy .es-banner {
+  margin-bottom: 64px;
+}
+#es-vichy.es-vichy .es-banner__border {
+  background: linear-gradient(45deg, #469594, #50bfbd);
+  padding: 32px 16px;
+  margin-bottom: 16px;
+}
+#es-vichy.es-vichy .es-banner__title {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  color: #fff;
+  font-size: 14px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 700;
+  line-height: 1.4;
+  margin-bottom: 10px;
+}
+#es-vichy.es-vichy .es-banner__container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+#es-vichy.es-vichy .es-banner__single {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 16px;
+}
+#es-vichy.es-vichy .es-banner__single:not(:last-child) {
+  margin-bottom: 24px;
+}
+#es-vichy.es-vichy .es-banner__text {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  color: #fff;
+  margin-top: 5px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 12px;
+}
+#es-vichy.es-vichy .es-banner__text--number {
+  font-size: 40px;
+  line-height: 1;
+  text-transform: uppercase;
+}
+#es-vichy.es-vichy .es-banner__text span {
+  font-size: 30px;
+  font-weight: 700;
+  position: relative;
+  top: -8px;
+}
 
 @-webkit-keyframes slidedown {
   from {
